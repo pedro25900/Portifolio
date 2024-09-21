@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabriel Barbosa | Portfolio Pessoal</title>
+  <meta name="description" content="Portfólio de Gabriel Barbosa para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!--HEADER DESKTOP-->
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+   
+    <div class="header_brand">
+      <div class="header__toggle">
+          <i id="toggleTheme" class="bi bi-sun"></i>
+          <div class="dropdown-idiom">
+              <button onclick="toggleDropdown()" class="dropbtn">Português-Brasil
+                  <i class="bi bi-chevron-compact-right"></i>
+              </button>
+              <div id="pageDropdown" class="dropdown-content">
+                  <a href="/assets/English-versio.html">English-US</a>
+              </div>
+          </div>
+      </div>
+  </div>
+  </header>
+
+   <!--HEADER MOBILE-->
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+
+<!--HOME CONTENT-->
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Gabriel Barbosa Da Silva </h1>
+      <p>Estudante de Nivel Superior em Desenvolvimento de Software Multiplataforma e Técnico em Automação Industrial</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/Gabriel-barbos" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/gabriel-barbosa-da-silva-35bb19256/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="" target="_blank">
+            <i class="menu__icon bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+  
+    <div class="conteudo">
+      <img class="img-main" src="/assets/images/homeimg.png">
+    </div>
+  </main>
+
+
+ <!--TECNOLOGIAS CONHECIDAS-->
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias do mercado</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/icons8-java.svg" alt="Logo Java">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/icons8-python.svg" alt="Logo Python">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/icons8-javascript.svg" alt="Logo JavaScript">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/icons8-react-js.svg" alt="Logo React">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/icons8-node-js.svg" alt="Logo Node.js">
+      </li>
+
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/icons8-mysql.svg" alt="Logo SQL">
+      </li>
+
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/icons8-mongodb.svg" alt="Logo mongo">
+      </li>
+
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/icons8-html.svg" alt="Logo HTML">
+      </li>
+
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/icons8-css3.svg" alt="Logo css">
+      </li>
+
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/icons8-arduino.svg" alt="Logo arduino">
+      </li>
+    </ul>
+  </section>
+
+
+ <!--HEADER PROJETOS-->
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+       <!--CARDS DE PROJETOS-->
+
+       <div class="projects__card">
+        <img class="card__cover" src="/assets/images/impermaq.png" alt="Capa ">
+        <div class="card__body">
+          <h3 class="card__title">Impermaq</h3>
+          <p class="card__description">Catálogo virtual para uma loja real</p>
+          <ul class="card__list">
+            <li class="card__item">Solicitação de orçamentos</li>
+            <li class="card__item">Gestão completa dos produtos exibidos(CRUD)</li>
+            <li class="card__item">Controle de Acesso e Responsividade</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-react-js.svg" alt="Logo react">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-javascript.svg" alt="Logo Js">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-node-js.svg" alt="Logo node">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-mongodb.svg" alt="Logo MongoDB">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn-proj">
+              <a href="https://impermaq.com.br/" target="_blank">
+              <span>Prévia</span>
+              </a>
+            </button>  
+            <button class="btn">
+              <a href="https://github.com/Gabriel-barbos/impermaq">
+              <span>Repositório</span>
+              </a>
+            </button>  
+          </div>
+        </div>
+      </div>
+
+
+       <div class="projects__card">
+        <img class="card__cover" src="/assets/images/projects/devhub-bg.png" alt="Capa ">
+        <div class="card__body">
+          <h3 class="card__title">Devhub</h3>
+          <p class="card__description">Rede Social para público tech</p>
+          <ul class="card__list">
+            <li class="card__item">lógica de Posts, Comentários e Threads</li>
+            <li class="card__item">Desenvolvido com FastAPI</li>
+            <li class="card__item">Troca de Temas e Responsividade</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-react-js.svg" alt="Logo react">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-texto-datilografado-50.png" alt="Logo Js">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-python.svg" alt="Logo Python">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-mongodb.svg" alt="Logo MongoDB">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn-proj">
+              <a href="/Docs/Devhub.pdf" target="_blank">
+              <span>Prévia</span>
+              </a>
+            </button>  
+            <button class="btn">
+              <a href="https://github.com/Gabriel-barbos/Devhub.git">
+              <span>Repositório</span>
+              </a>
+            </button>  
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/michele-cortinass.png" alt="Capa ">
+        <div class="card__body">
+          <h3 class="card__title">Michele Cortinas</h3>
+          <p class="card__description">Ecommerce de Cortinas</p>
+          <ul class="card__list">
+            <li class="card__item">Recuperação de senha via E-mail</li>
+            <li class="card__item">Carrinho de compras</li>
+            <li class="card__item">Visualização de cada produto de acordo com a cor</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-react-js.svg" alt="Logo react">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-javascript.svg" alt="Logo Js">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-node-js.svg" alt="Logo node">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-mysql.svg" alt="Logo SQL">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn-proj">
+              <a href="/Docs/Michele Cortinas.pdf" target="_blank">
+              <span>Prévia</span>
+              </a>
+            </button>  
+            <button class="btn">
+              <a href="https://github.com/Gabriel-barbos/Michele-Cortinas">
+              <span>Repositório</span>
+              </a>
+            </button>  
+          </div>
+        </div>
+      </div>
+
+<a class="resume-btn" 
+href="/Docs/CV_Gabriel_Barbosa2 01.05.pdf"target="_blank">
+  <span>
+    <i class="bi bi-file-earmark-arrow-down"></i>
+  </span>
+</a>
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/tourlis.png" alt="Capa tourlis canva">
+        <div class="card__body">
+          <h3 class="card__title">Tourlis</h3>
+          <p class="card__description">Site sobre turismo Sustentável</p>
+          <ul class="card__list">
+            <li class="card__item">Integração com PowerBi</li>
+            <li class="card__item">Responsivo</li>
+            <li class="card__item">Quiz Interativo</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-power-bi.svg" alt="Logo Power BI">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-javascript.svg" alt="Logo Js">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-html.svg" alt="Logo HTML">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-css3.svg" alt="Logo CSS">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn-proj">
+              <a href="https://youtu.be/TsgTKow4El0?si=g6CTXUWCz50tbaaO"target="_blank">
+              <span>Prévia</span>
+              </a>
+            </button>  
+
+
+            <button class="btn">
+              <a href="https://github.com/Gabriel-barbos/Tourlis">
+              <span>Repositório</span>
+              </a>
+            </button>  
+          </div>
+        </div>
+      </div>
+
+ 
+
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/p2web.png" alt="Capa ">
+        <div class="card__body">
+          <h3 class="card__title">Apresentação sobre APIs, Cache e JWT</h3>
+          <p class="card__description">Apresentação sobre os conceitos abordados na materia de Desenvolvimento Web 3 </p>
+          <ul class="card__list">
+            <li class="card__item"> Consumo de APIs</li>
+            <li class="card__item">Implementação do JWT</li>
+            <li class="card__item">Implementação do MongoDB</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-mongodb.svg " alt="Logo react">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-javascript.svg" alt="Logo Js">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-html.svg" alt="Logo Python">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-python.svg" alt="Logo MongoDB">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn-proj">
+              <a href="/Docs/P2 - DW3.pdf" target="_blank">
+              <span>Prévia</span>
+              </a>
+            </button>  
+            <button class="btn">
+              <a href="https://github.com/gabrielmeiradev/pokemon-app.git">
+              <span>Repositório</span>
+              </a>
+            </button>  
+          </div>
+        </div>
+      </div>
+
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/nutrihub-bg.png" alt="Capa ">
+        <div class="card__body">
+          <h3 class="card__title">NutriHub</h3>
+          <p class="card__description">Projeto Colaborativo Internacional </p>
+          <ul class="card__list">
+            <li class="card__item">Projeto em colaboração com estudantes Colombianos</li>
+            <li class="card__item">Ler codigo de barras de Alimentos</li>
+            <li class="card__item">Integração com API da tabela nutricional</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-css3.svg" alt="Logo react">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-javascript.svg" alt="Logo Js">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-html.svg" alt="Logo Python">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-bootstrap.svg" alt="Logo MongoDB">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn-proj">
+              <a href="/Docs/NutriHub - PCI.pdf" target="_blank">
+              <span>Prévia</span>
+              </a>
+            </button>  
+            <button class="btn">
+              <a href="https://github.com/gabrielmeiradev/nutrihub">
+              <span>Repositório</span>
+              </a>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/Gabriel-barbos">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+  
+ <!--SOBRE-->
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/prof-pic.jpg" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Gabriel Barbosa. Sou uma pessoa apaixonada por tecnologia, constantemente buscando aprimorar meu conhecimento e habilidades nessa área dinâmica e em constante evolução. 
+          Minhas soft skills são fundamentais para meu sucesso profissional, pois possuo uma capacidade excepcional de comunicação, 
+          o que me permite colaborar efetivamente em equipes multidisciplinares. Sou proativo e resiliente, sempre buscando soluções criativas para desafios complexos. 
+           
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Avançado </span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/gabriel-barbosa-da-silva-35bb19256/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="Assets/docs/Pedro Henrique CV.pdf" target="_blank">
+            <!-- Abre em outra guia -->
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Desenvolvimento de Software Multiplataforma</h4>
+          <span>Março 2023 - Atualmente</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>FATEC Zona Leste</span>
+          </div>
+          <div class="about__icons">
+            
+          </div>
+        </div>
+
+        <div class="row1">
+         
+          <h4>Ensino Técnico integrado ao Ensino Médio</h4>
+          <span>Março 2020 - Dezembro 2022</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>ETEC Martin Luther King</span>
+          </div>
+          <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>Técnico em Automação Industrial</span>
+          </div>
+        </div>
+
+        <div class="row2">
+          <h3>Experiências</h3>
+          <div class="job-card" id="jobCard1">
+            <div class="job-card-front">
+                <h4>Estagiário de T.I</h4>
+                <div class="logo-container">
+                    <img src="/assets/images/scope.png" alt="Company Logo">
+                </div>
+                <div class="job-info">
+                    <div class="about__icons">
+                        <i class="bi bi-calendar3"></i>              
+                        <span>04/2023 - Atualmente</span>
+                    </div>
+                    <div class="about__icons">
+                        <i class="bi bi-geo-alt"></i>              
+                        <span>São Paulo - Brasil</span>
+                    </div>
+                </div>
+                <div class="see-more">
+                    <button class="flipButton text-button">ver mais</button>
+                </div>
+            </div>
+            <div class="job-card-back">
+              <h4>Atividades e Ações</h4>
+             
+              <p>Atuação em todo processo de configuração e testagem de equipamentos de Telemetria veicular 
+                (IoT Devices) e suporte aos clientes sobre o uso da plataforma de controle de Frotas.
+              </p>
+             
+             <div class="job-topic">
+              <li class="about__item">Elaboração de treinamentos em vídeo</li>
+              <li class="about__item">Atuação na melhoria de processos de configuração de equipamentos</li>
+              <li class="about__item">Desenvolvimento de Sistema de gestão de processos usando o Monday e Notion</li>
+
+             </div>
+                <button class="flipBackButton text-button">voltar</button>
+            </div>
+        </div>
+
+        <div class="space"></div>
+
+
+        <div class="row2">
+          <div class="job-card" id="jobCard2">
+            <div class="job-card-front">
+                <h4>Professor de Inglês</h4>
+                <div class="logo-container">
+                    <img src="/assets/images/teacher2.png" alt="Company Logo">
+                </div>
+                <div class="job-info">
+                    <div class="about__icons">
+                        <i class="bi bi-calendar3"></i>              
+                        <span>02/2024 - Atualmente</span>
+                    </div>
+                    <div class="about__icons">
+                        <i class="bi bi-geo-alt"></i>              
+                        <span>São Paulo - Brasil</span>
+                    </div>
+                </div>
+                <div class="see-more">
+                    <button class="flipButton text-button">ver mais</button>
+                </div>
+            </div>
+            <div class="job-card-back">
+                <h4>Atividades e Ações</h4>
+                <p>Ministrando aulas de Inglês de forma hibrída com parte da 
+                  turma presencial e outra virtualmente.
+                </p>
+               
+               <div class="job-topic">
+                <li class="about__item">Elaboração de materias de estudos</li>
+                <li class="about__item">Criação de um ambiente virtual para aulas com dicas, anotações e exercícios no Discord.</li>
+                <li class="about__item">Promovendo dinâmicas em grupo para potencializar o aprendizado do idioma</li>
+  
+               </div>
+                <button class="flipBackButton text-button">voltar</button>
+            </div>
+          </div>
+        
+        </div>
+         
+      
+        </div>
+        </div>
+
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Introdução ao Git e Github</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. Setembro 2023. 2h.
+              </p>
+              <p>
+                O que é versionamento de código, Git e GitHub. Como instalar e configurar o Git em diferentes sistemas 
+                operacionais e como autenticar via Token e SSH. Como manusear repositórios, indo desde a criação e clonagem 
+                até o gerenciamento de branches, passando por todas as etapas de salvar, desfazer e sincronizar alterações 
+                com o repositório remoto. 
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>Curso Completo de Inglês</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+               Wizard Escola de Idiomas. 2013-2021
+              </p>
+              <p>
+                Curso de Inglês realizado na Wizard para proficiência do  idioma inglês, com foco em comunicação e expressão oral e escrita, sendo validado pelo teste TOEIC(760)
+              </p>
+            </div>
+          </div>
+          
+          
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Introdução À Gestão De Projetos</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Fundação Bradesco. Fev 2024. 10h.
+              </p>
+              <p>
+                Introdução À Gestão De Projetos com foco em conceitos chave  para a gestão convensional, como planejamento, organização, execução,. Aborbando o PMBOk e explicando como realizar um projeto com a perfeição
+              </p>
+            </div>
+          </div>
+
+
+
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Curso de Contrução de Drones</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Jovem Engenheiro. Fev 2019. 80h.
+              </p>
+              <p>
+                Introdução de varios conceitos fisícos como: cinemática, Leis de Newton, Dilatação de Materíais. Além disso abordando conceitos de modelagem 3D onde todo o protótipo do drone foi 
+                modelado em 3D  no SketchUp e posteriormente foi impresso em uma impressora 3D e toda a parte de programação do microcontrolador e eletrônica do projeto foi realizada também
+              </p>
+            </div>
+          </div>
+
+
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>
+                Introdução a Criação de Websites com HTML5 e CSS3</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Digital Innovation One. Jan 2024. 6h.
+              </p>
+              <p>
+                Introdução de varios conceitos sobre internet como: protocolos HTTP, HTTPS, metodos GET e POST e toda a estrutura da internet em termos de URL, Browsers, responsividade e etc
+              </p>
+            </div>
+          </div>
+
+
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Lógica de Programação Essencial</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Digital Innovation One. Dez 2023. 4h.
+              </p>
+              <p>
+              Introdução a vários conceitos chave sobre lógica de programação como criação de variáveis, métodos, classes e de boas práticas de programação.
+                Foram citados também conceitos como Debugging, Refactor e etc
+                              </p>
+            </div>
+          </div>
+
+
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Introdução ao Desenvolvimento com React</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Digital Innovation One. Jun 2024. 16h.
+              </p>
+              <p>
+              Introdução a vários conceitos chave sobre Desenvolvimento de aplicações em React e diversos conceitos sobre FrontEnd
+                              </p>
+            </div>
+          </div>
+
+
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Tornando Páginas Web Interativas com JavaScript</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Digital Innovation One. Jul 2024. 8h.
+              </p>
+              <p>
+            
+                Implementação de lógicas JavaScript para adicionar interações em aplicações web 
+                              </p>
+            </div>
+          </div>
+
+
+
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Lógica de Programação Essencial</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Digital Innovation One. Dez 2023. 4h.
+              </p>
+              <p>
+              Introdução a vários conceitos chave sobre lógica de programação como criação de variáveis, métodos, classes e de boas práticas de programação.
+                Foram citados também conceitos como Debugging, Refactor e etc
+                              </p>
+            </div>
+          </div>
+          <div class="space">
+            
+          </div>
+          <div class="row2">
+            <h3>Ferramentas conhecidas</h3>
+            <ul class="about__list">
+              <li class="about__item">Figma: Intermediario</li>
+              <li class="about__item">SketchUp: Avançado</li>
+              <li class="about__item">Bootstrap: Intermediario</li>
+              <li class="about__item">Excel: Intermediario</li>
+              <li class="about__item">Edicão de Fotos e Videos: Avançado</li>
+              <li class="about__item">AutoCAD: Intermediario</li>
+              <li class="about__item">Windows: Avançado</li>
+              <li class="about__item">Word: Avançado</li>
+              <li class="about__item">PowerPoint: Avançado</li>
+              <li class="about__item">Github: Avançado</li>
+              <li class="about__item">Teams: Avançado</li>
+              <li class="about__item">Monday: Avançado</li>
+            </ul>
+          </div>
+        </div>
+
+  </section>
+   <!--CONTATO-->
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/Gabriel-barbos" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/gabriel-barbosa-da-silva-35bb19256/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="" target="_blank">
+          <i class="menu__icon bi bi-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:gabriel.barbosa79@outlook.com">
+      <button class="btn btn--primary">
+        <span class="email">amorimpedro259@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2024. Portfólio desenvolvido por Pedro Henrique Mendonça Amorim 
+    </p>
+  </footer>
+  <script src="Assets/Js/script.js"></script>
+</body>
+</html>
